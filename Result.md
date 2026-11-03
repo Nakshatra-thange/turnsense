@@ -145,3 +145,105 @@ The central research objective remains evaluating how well existing EOT detectio
 ---
 
 *TurnSense — Investigating End-of-Turn Detection in Hinglish Voice Conversations.*
+
+# Experiment 002 — LiveKit Turn Detector v1-mini
+
+**Date:** November 3, 2026  
+**Status:** Completed  
+**Dataset:** LiveKit EoT-Bench Hindi Validation  
+**Model:** LiveKit Turn Detector v1-mini
+
+## 1. Objective
+
+Evaluate LiveKit Turn Detector v1-mini on the same Hindi validation dataset used in Experiment 001.
+
+The purpose is to establish a second baseline and enable a controlled comparison with Smart Turn v3.2.
+
+## 2. Experimental Setup
+
+| Parameter | Value |
+|---|---|
+| Dataset | `livekit/eot-bench-data` |
+| Configuration | `hi` |
+| Split | `validation` |
+| Original recordings | 400 |
+| Model | LiveKit Turn Detector v1-mini |
+| Adapter | `LiveKitTurnDetectorMiniAdapter` |
+| Inference interval | 100 ms |
+| Transcript lag | 500 ms |
+| Batch size | 32 |
+| Score point | 0.2 seconds |
+| Audio context | Last 1.2 seconds |
+
+The model was executed locally using `livekit-local-inference`.
+
+## 3. Prediction Results
+
+| Metric | Result |
+|---|---:|
+| Total prediction points | 8,212 |
+| Completed prediction points | 8,212 |
+| Runtime | 84 seconds |
+| Processing speed | 97.34 points/second |
+
+The prediction run completed successfully.
+
+## 4. Dataset Statistics
+
+The metrics calculation used the same scored span set as Experiment 001.
+
+| Category | Count |
+|---|---:|
+| HOLD spans | 552 |
+| EOT spans | 400 |
+| Total scored spans | 952 |
+| Missing scores | 0 |
+
+## 5. Classification Performance
+
+| Metric | Result |
+|---|---:|
+| AUC | 0.8422 |
+| Average Precision | 0.7651 |
+
+The AUC indicates stronger separation between HOLD and EOT examples than observed in Experiment 001.
+
+The higher Average Precision also indicates stronger precision-recall performance.
+
+## 6. Operational Performance
+
+| Cutoff budget | Threshold | Cutoff rate | Mean latency | Detection rate |
+|---|---:|---:|---:|---:|
+| 2% | 0.11 | 1.81% | 803 ms | 98.5% |
+| 5% | 0.36 | 4.89% | 624 ms | 75.25% |
+| 10% | 0.30 | 9.78% | 505 ms | 82.5% |
+
+Mean frontier latency across the 0–10% cutoff range: **682.46 ms**.
+
+## 7. Initial Observations
+
+1. The model completed all 8,212 prediction points without missing scores.
+2. AUC of 0.8422 indicates stronger class separation than Smart Turn v3.2 in Experiment 001.
+3. AP of 0.7651 indicates stronger precision-recall performance.
+4. Mean frontier latency was approximately 682 ms.
+5. Detection rate varied across operating points, showing that better classification metrics do not automatically guarantee better operational detection behaviour.
+
+## 8. Conclusion
+
+LiveKit Turn Detector v1-mini achieved stronger AUC and Average Precision than Smart Turn v3.2 on the Hindi validation benchmark.
+
+However, operational detection rates varied across cutoff budgets. The models must therefore be compared using both classification and operational metrics.
+
+These results are specific to the Hindi validation dataset and do not establish performance on Hinglish speech.
+
+## 9. Next Steps
+
+- Complete comparisons with additional EOT detectors.
+- Investigate operating-point trade-offs.
+- Curate and annotate genuine Hinglish audio examples.
+- Evaluate existing detectors on the Hinglish pilot dataset.
+- Analyse language-specific failure cases.
+
+---
+
+*TurnSense — Investigating End-of-Turn Detection in Hinglish Voice Conversations.*
