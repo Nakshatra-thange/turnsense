@@ -1,0 +1,43 @@
+{
+  "harness_version": "0.1.0",
+  "span_set_id": "e779729bb3e1",
+  "model_run_id": "smart_turn_audio_adapter__cb4f57229a",
+  "dataset": {
+    "path": "livekit/eot-bench-data",
+    "split": "validation",
+    "min_silence_span": 0.1,
+    "language": "hi"
+  },
+  "load_dataset": {
+    "path": "livekit/eot-bench-data",
+    "name": "hi",
+    "split": "validation"
+  },
+  "model": {
+    "adapter": "eot_harness.smart_turn_adapter:SmartTurnAudioAdapter",
+    "adapter_id": "pipecat-ai/smart-turn-v3-smart-turn-v3.2-gpu",
+    "inference_interval": 0.1,
+    "transcript_lag": 0.5,
+    "display_name": "SmartTurn v3.2",
+    "score_point": 0.2
+  },
+  "runtime": {
+    "batch_size": 32
+  },
+  "path": "livekit/eot-bench-data",
+  "name": "hi",
+  "repo_id": "livekit/eot-bench-data",
+  "subset": "hi",
+  "split": "validation",
+  "language": "hi",
+  "min_silence_span": 0.1,
+  "adapter_id": "pipecat-ai/smart-turn-v3-smart-turn-v3.2-gpu",
+  "adapter": "eot_harness.smart_turn_adapter:SmartTurnAudioAdapter",
+  "batch_size": 32,
+  "inference_interval": 0.1,
+  "transcript_lag": 0.5,
+  "n_rows": 8212,
+  "n_spans": 1074,
+  "display_name": "SmartTurn v3.2",
+  "score_point": 0.2
+}
