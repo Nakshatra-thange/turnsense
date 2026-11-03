@@ -247,3 +247,116 @@ These results are specific to the Hindi validation dataset and do not establish 
 ---
 
 *TurnSense — Investigating End-of-Turn Detection in Hinglish Voice Conversations.*
+
+# Experiment 003: Silero VAD + Silence-Based Endpointing
+
+## 1. Objective
+
+Evaluate whether a lightweight Voice Activity Detection (VAD) model, combined with a silence-duration policy, can serve as an effective baseline for end-of-turn (EOT) detection.
+
+Unlike dedicated EOT models, Silero VAD detects speech activity rather than directly predicting whether a speaker has finished their turn.
+
+## 2. Experimental setup
+
+| Parameter | Configuration |
+|---|---|
+| VAD model | Silero VAD |
+| Package | silero-vad 6.2.3 |
+| Dataset | LiveKit EoT-Bench |
+| Language configuration | Hindi (`hi`) |
+| Split | Validation |
+| Recordings | 400 |
+| Inference interval | 100 ms |
+| Transcript lag | 500 ms |
+| Scored spans | 952 |
+| HOLD spans | 552 |
+| EOT spans | 400 |
+
+### Endpointing policy
+
+The adapter processes each causal audio prefix using Silero VAD, identifies the end of the last detected speech segment, and calculates the trailing silence duration.
+
+The silence duration is converted into an EOT score:
+
+`p_eot = min(detected_silence_duration / 1.0, 1.0)`
+
+The resulting score is passed to EoT-Bench for evaluation.
+
+This is a VAD-based endpointing policy, not a native EOT probability produced by Silero.
+
+## 3. Results
+
+| Metric | Result |
+|---|---:|
+| AUC | 0.5299 |
+| Average Precision | 0.4351 |
+| Mean frontier latency | 791.33 ms |
+| Scored spans | 952 |
+| Missing scores | 0 |
+| Prediction points | 8,212 |
+| Runtime | 5 min 11 sec |
+| Throughput | 26.41 prediction points/sec |
+
+### Operating points
+
+| Cutoff budget | Detection rate | Mean latency | Timeout rate |
+|---|---:|---:|---:|
+| 2% | 55.25% | 834.25 ms | 44.75% |
+| 5% | 100% | 700 ms | 0% |
+| 10% | 100% | 600 ms | 0% |
+
+## 4. Additional analysis
+
+The Pearson correlation between the predicted EOT scores and the benchmark's silence duration was:
+
+**r = 0.9126**
+
+Prediction score statistics:
+
+| Statistic | Value |
+|---|---:|
+| Mean | 0.4695 |
+| Median | 0.4040 |
+| Standard deviation | 0.3628 |
+| Minimum | 0.0000 |
+| Maximum | 1.0000 |
+| Unique scores | 1,124 |
+
+The high correlation indicates that the adapter's scores are strongly driven by silence duration.
+
+This suggests that the current policy behaves largely like a silence-duration endpointing rule. It does not establish that Silero's underlying speech detector is ineffective.
+
+## 5. Comparison with previous experiments
+
+| Model | AUC | AP | Mean frontier latency |
+|---|---:|---:|---:|
+| Smart Turn v3.2 | 0.7189 | 0.5609 | 725.52 ms |
+| LiveKit Turn Detector v1-mini | 0.8422 | 0.7651 | 682.46 ms |
+| Silero VAD + Silence Policy | 0.5299 | 0.4351 | 791.33 ms |
+
+LiveKit Mini currently provides the strongest ranking performance and lowest mean frontier latency among these three evaluated systems.
+
+Silero's current policy performs substantially worse on AUC and AP.
+
+## 6. Interpretation and limitations
+
+1. Silero VAD is a speech-activity detector, not a dedicated conversational endpointing model.
+2. The adapter converts detected trailing silence into an EOT score using a simple duration-based formula.
+3. The high correlation with silence duration indicates that the current policy contributes limited demonstrated information beyond pause length.
+4. The adapter independently processes each causal audio prefix rather than maintaining one continuous VAD state across the recording.
+5. These results are from the Hindi validation configuration. They must not be presented as Hinglish performance.
+6. The operating-point results show a trade-off between false interruptions and completed-turn detection.
+
+## 7. Conclusion
+
+The experiment successfully integrated Silero VAD into EoT-Bench and generated predictions for all 8,212 inference points.
+
+The current VAD-plus-silence policy achieved an AUC of 0.5299 and AP of 0.4351, making it the weakest of the three evaluated approaches.
+
+The results support retaining this implementation as a lightweight baseline, rather than treating it as a competitive dedicated EOT detector.
+
+## 8. Next research direction
+
+Move from general Hindi benchmark evaluation towards identifying, manually verifying, and evaluating genuine Hindi-English code-switched speech.
+
+The next phase will investigate whether existing endpointing systems behave differently on Hinglish conversations, particularly around pauses within incomplete sentences and code-switched utterances.
