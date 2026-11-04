@@ -102,3 +102,20 @@ Scope locked for v1
 Once we finish Week 1, we'll have actual baseline results to guide Week 2.
 
 That's what we're building.
+
+But there's something else we discussed
+You previously wanted TurnSense to be more than simply running benchmarks.
+
+The progression we discussed was:
+1. Evaluation
+   
+   Understand how existing EOT detectors perform on Hinglish.
+2. Failure analysis
+   
+   Identify exactly where they struggle: pauses, language transitions, code-switching and conversational context.
+3. Research contribution
+   
+   Investigate whether language-aware or code-switch-aware decision strategies can improve EOT detection.
+4. Prototype
+   
+   Potentially implement and test a lightweight improvement against existing baselines.
