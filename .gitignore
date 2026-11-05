@@ -4,3 +4,6 @@ Corpus/
 data/
 corpus/
 
+# TurnSense Hinglish generated outputs (2026-11-05)
+experiments/eot-bench/hinglish/predictions_*.parquet
+experiments/eot-bench/hinglish/predictions_*.csv

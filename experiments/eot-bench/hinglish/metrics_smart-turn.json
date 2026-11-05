@@ -1,0 +1,67 @@
+{
+  "adapter": "smart_turn_audio_adapter",
+  "display_name": "SmartTurn v3.2",
+  "protocol": "causal onset (audio prefix [0, pause.start], silence_dur=0), transcript lag 0.5s words",
+  "n_scored": 116,
+  "n_eot": 100,
+  "n_hold": 16,
+  "auc": 0.51625,
+  "ap": 0.8634128816169591,
+  "operating_points_onset": [
+    {
+      "threshold": 0.1,
+      "cutoff_rate": 0.4375,
+      "detect_rate": 0.49
+    },
+    {
+      "threshold": 0.2,
+      "cutoff_rate": 0.4375,
+      "detect_rate": 0.45
+    },
+    {
+      "threshold": 0.3,
+      "cutoff_rate": 0.3125,
+      "detect_rate": 0.43
+    },
+    {
+      "threshold": 0.4,
+      "cutoff_rate": 0.25,
+      "detect_rate": 0.4
+    },
+    {
+      "threshold": 0.5,
+      "cutoff_rate": 0.25,
+      "detect_rate": 0.36
+    },
+    {
+      "threshold": 0.6,
+      "cutoff_rate": 0.25,
+      "detect_rate": 0.34
+    },
+    {
+      "threshold": 0.7,
+      "cutoff_rate": 0.25,
+      "detect_rate": 0.28
+    },
+    {
+      "threshold": 0.8,
+      "cutoff_rate": 0.1875,
+      "detect_rate": 0.25
+    },
+    {
+      "threshold": 0.9,
+      "cutoff_rate": 0.1875,
+      "detect_rate": 0.15
+    }
+  ],
+  "inference": {
+    "total_seconds": 5.962,
+    "ms_per_pause": 51.4,
+    "realtime_factor": 0.0077
+  },
+  "score_point_caveat": "Hinglish scored at pause onset (silence_dur=0.0); Hindi benchmark scores at 0.2s INTO silence (score_point_s=0.2). Direct AUC comparison carries a ~0.05 protocol offset caveat; see evaluation_protocol.md.",
+  "env": {
+    "python": "3.11.18",
+    "platform": "macOS-26.2-arm64-arm-64bit"
+  }
+}

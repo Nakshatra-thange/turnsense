@@ -1,0 +1,67 @@
+{
+  "adapter": "live_kit_turn_detector_mini_adapter",
+  "display_name": "LiveKit Turn Detector v1-mini",
+  "protocol": "causal onset (audio prefix [0, pause.start], silence_dur=0), transcript lag 0.5s words",
+  "n_scored": 116,
+  "n_eot": 100,
+  "n_hold": 16,
+  "auc": 0.45000000000000007,
+  "ap": 0.87070262839252,
+  "operating_points_onset": [
+    {
+      "threshold": 0.1,
+      "cutoff_rate": 1.0,
+      "detect_rate": 1.0
+    },
+    {
+      "threshold": 0.2,
+      "cutoff_rate": 1.0,
+      "detect_rate": 0.94
+    },
+    {
+      "threshold": 0.3,
+      "cutoff_rate": 0.9375,
+      "detect_rate": 0.87
+    },
+    {
+      "threshold": 0.4,
+      "cutoff_rate": 0.875,
+      "detect_rate": 0.71
+    },
+    {
+      "threshold": 0.5,
+      "cutoff_rate": 0.6875,
+      "detect_rate": 0.52
+    },
+    {
+      "threshold": 0.6,
+      "cutoff_rate": 0.375,
+      "detect_rate": 0.4
+    },
+    {
+      "threshold": 0.7,
+      "cutoff_rate": 0.25,
+      "detect_rate": 0.21
+    },
+    {
+      "threshold": 0.8,
+      "cutoff_rate": 0.0,
+      "detect_rate": 0.05
+    },
+    {
+      "threshold": 0.9,
+      "cutoff_rate": 0.0,
+      "detect_rate": 0.0
+    }
+  ],
+  "inference": {
+    "total_seconds": 1.213,
+    "ms_per_pause": 10.5,
+    "realtime_factor": 0.0016
+  },
+  "score_point_caveat": "Hinglish scored at pause onset (silence_dur=0.0); Hindi benchmark scores at 0.2s INTO silence (score_point_s=0.2). Direct AUC comparison carries a ~0.05 protocol offset caveat; see evaluation_protocol.md.",
+  "env": {
+    "python": "3.11.18",
+    "platform": "macOS-26.2-arm64-arm-64bit"
+  }
+}

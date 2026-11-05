@@ -1,0 +1,117 @@
+candidate_id,recording_id,turn_id,speaker_id,start_time,label,preceding_text,preceding_language,code_switch_around_pause,p_eot
+hinglish_001_general__c001,hinglish_001_general,hinglish_001_general__t000,speaker_1,7.0,eot,"YAR, I have been thinking about AI lately. Do you genuinely think AI will replace software engineers?",english,True,0.9890943765640259
+hinglish_001_general__c002,hinglish_001_general,hinglish_001_general__t001,speaker_1,10.1,eot,"YAR, I have been thinking about AI lately. Do you genuinely think AI will replace software engineers?",english,True,0.6051135063171387
+hinglish_001_general__c003,hinglish_001_general,hinglish_001_general__t002,speaker_2,13.3,eot,"Mujinii lakta, completely replace karega. But ha, jo repetitive coding task he,",mixed,True,0.020195990800857544
+hinglish_001_general__c004,hinglish_001_general,hinglish_001_general__t003,speaker_2,16.2,eot,wo definitely automat ho jai ge.,hindi (romanized),False,0.9542210102081299
+hinglish_001_general__c005,hinglish_001_general,hinglish_001_general__t004,speaker_2,18.1,eot,"Haa, that's true.",uncertain,False,0.007152050733566284
+hinglish_001_general__c006,hinglish_001_general,hinglish_001_general__t005,speaker_1,23.0,eot,"But fir jo fresher saa, onka kya ho ga? Ona experience kye sa mi lega?",hindi (romanized),False,0.10250222682952881
+hinglish_001_general__c007,hinglish_001_general,hinglish_001_general__t006,speaker_1,25.4,eot,"But fir jo fresher saa, onka kya ho ga? Ona experience kye sa mi lega?",hindi (romanized),False,0.3619464933872223
+hinglish_001_general__c008,hinglish_001_general,hinglish_001_general__t007,speaker_2,32.9,eot,But fresher saa ko apporchniti hi nahi militi.,hindi (romanized),True,0.9823143482208252
+hinglish_001_general__c009,hinglish_001_general,hinglish_001_general__t008,speaker_2,33.5,eot,But fresher saa ko apporchniti hi nahi militi.,hindi (romanized),True,0.9886893630027771
+hinglish_001_general__c010,hinglish_001_general,hinglish_001_general__t009,speaker_1,56.1,hold,"Obviously, kabe kabe hai, mei bhi AI sa answer leeti ho.",hindi (romanized),False,0.021616816520690918
+hinglish_001_general__c011,hinglish_001_general,hinglish_001_general__t009,speaker_1,59.7,eot,But bad me realaay sao tha hai ki kansap properly samjahi nahi.,hindi (romanized),True,0.8728281259536743
+hinglish_001_general__c012,hinglish_001_general,hinglish_001_general__t010,speaker_1,63.2,eot,But bad me realaay sao tha hai ki kansap properly samjahi nahi.,hindi (romanized),True,0.6939914226531982
+hinglish_001_general__c013,hinglish_001_general,hinglish_001_general__t011,speaker_2,66.6,eot,"Haa, same, vese ek badwata. Would you rather work for a startup or a big company?",english,True,0.9606883525848389
+hinglish_001_general__c014,hinglish_001_general,hinglish_001_general__t012,speaker_1,71.5,eot,"I think startup, because waha, you get to build things from scratch.",english,True,0.008167773485183716
+hinglish_001_general__c015,hinglish_001_general,hinglish_001_general__t013,speaker_1,74.7,eot,But obviously job security kabe issu ho ta hai.,hindi (romanized),True,0.9294860363006592
+hinglish_001_general__c016,hinglish_001_general,hinglish_001_general__t014,speaker_2,80.0,eot,"Fair enough, lekin startup me workload bhi kaafi unpredictable ho ta hai.",hindi (romanized),True,0.9796475172042847
+hinglish_001_general__c017,hinglish_001_general,hinglish_001_general__t015,speaker_2,82.0,eot,Are you prepared for that?,english,True,0.00951281189918518
+hinglish_001_general__c018,hinglish_001_general,hinglish_001_general__t016,speaker_2,83.8,eot,Are you prepared for that?,english,True,0.00775831937789917
+hinglish_001_general__c019,hinglish_001_general,hinglish_001_general__t017,speaker_1,87.7,eot,"I think so, but honestly, sometimes I wonder whether I'm choosing the right career.",english,True,0.030978620052337646
+hinglish_001_general__c020,hinglish_001_general,hinglish_001_general__t018,speaker_2,89.9,hold,"I think so, but honestly, sometimes I wonder whether I'm choosing the right career.",english,False,0.019875377416610718
+hinglish_001_general__c021,hinglish_001_general,hinglish_001_general__t018,speaker_2,94.9,eot,A sakyu lakta hai. Is it because of the competition or because you're not interested anymore?,mixed,True,0.1827082335948944
+hinglish_001_general__c022,hinglish_001_general,hinglish_001_general__t019,speaker_2,96.6,eot,A sakyu lakta hai. Is it because of the competition or because you're not interested anymore?,mixed,True,0.20135948061943054
+hinglish_001_general__c023,hinglish_001_general,hinglish_001_general__t020,speaker_2,98.1,eot,A sakyu lakta hai. Is it because of the competition or because you're not interested anymore?,mixed,True,0.02190259099006653
+hinglish_001_general__c024,hinglish_001_general,hinglish_001_general__t021,speaker_1,103.4,eot,"Not exactly, but I like technology.",english,False,0.08804413676261902
+hinglish_001_general__c025,hinglish_001_general,hinglish_001_general__t022,speaker_1,104.1,eot,But lakta hai ki there are so many other things interesting too.,mixed,True,0.006018191576004028
+hinglish_001_general__c026,hinglish_001_general,hinglish_001_general__t023,speaker_2,107.9,eot,Like what? What else would you want to explore?,english,False,0.9240578413009644
+hinglish_001_general__c027,hinglish_001_general,hinglish_001_general__t024,speaker_2,109.6,eot,Like what? What else would you want to explore?,english,False,0.005717575550079346
+hinglish_001_general__c028,hinglish_001_general,hinglish_001_general__t025,speaker_2,110.9,eot,Like what? What else would you want to explore?,english,False,0.10593560338020325
+hinglish_001_general__c029,hinglish_001_general,hinglish_001_general__t026,speaker_1,113.5,eot,"Maybe neuroscience, maybe psychology or something related to human behaviour.",english,False,0.9611177444458008
+hinglish_001_general__c030,hinglish_001_general,hinglish_001_general__t027,speaker_1,115.8,eot,It's fascinating how the brain works.,english,False,0.9663803577423096
+hinglish_001_general__c031,hinglish_001_general,hinglish_001_general__t028,speaker_1,117.6,eot,It's fascinating how the brain works.,english,False,0.47078171372413635
+hinglish_001_general__c032,hinglish_001_general,hinglish_001_general__t029,speaker_2,124.7,eot,"That's interesting, but if you like technology and neuroscience, why not combine both?",english,False,0.6343650817871094
+hinglish_001_general__c033,hinglish_001_general,hinglish_001_general__t030,speaker_1,130.9,eot,Maybe something around speech technology and human computer interaction.,uncertain,False,0.24494323134422302
+hinglish_001_general__c034,hinglish_001_general,hinglish_001_general__t031,speaker_1,133.5,eot,Maybe something around speech technology and human computer interaction.,uncertain,True,0.10544538497924805
+hinglish_001_general__c035,hinglish_001_general,hinglish_001_general__t032,speaker_2,137.7,eot,But how does speech technology actually understand what we are saying?,english,True,0.8610976934432983
+hinglish_001_general__c036,hinglish_001_general,hinglish_001_general__t033,speaker_1,146.5,eot,But natural conversations are much more complicated.,english,False,0.1441594660282135
+hinglish_001_general__c037,hinglish_001_general,hinglish_001_general__t034,speaker_1,147.9,eot,But natural conversations are much more complicated.,english,False,0.007102847099304199
+hinglish_001_general__c038,hinglish_001_general,hinglish_001_general__t035,speaker_1,148.7,eot,Complicated? Kese?,uncertain,False,0.07780531048774719
+hinglish_001_general__c039,hinglish_001_general,hinglish_001_general__t036,speaker_2,151.9,eot,I mean we talk normally everyday.,english,False,0.07699990272521973
+hinglish_001_general__c040,hinglish_001_general,hinglish_001_general__t037,speaker_2,153.8,eot,I mean we talk normally everyday.,english,False,0.3869912922382355
+hinglish_001_general__c041,hinglish_001_general,hinglish_001_general__t038,speaker_2,157.5,eot,"For example, if I speak, I say,",english,False,0.05209866166114807
+hinglish_001_general__c042,hinglish_001_general,hinglish_001_general__t039,speaker_1,161.0,eot,"that is a really mean I'm finished, right?",english,False,0.017144590616226196
+hinglish_001_general__c043,hinglish_001_general,hinglish_001_general__t040,speaker_1,161.3,eot,"that is a really mean I'm finished, right?",english,False,0.02779892086982727
+hinglish_001_general__c044,hinglish_001_general,hinglish_001_general__t041,speaker_2,165.8,eot,You might be just thinking about what to say next.,english,False,0.018649131059646606
+hinglish_001_general__c045,hinglish_001_general,hinglish_001_general__t042,speaker_2,168.1,eot,You might be just thinking about what to say next.,english,False,0.08333882689476013
+hinglish_001_general__c046,hinglish_001_general,hinglish_001_general__t043,speaker_1,172.2,eot,"Exactly. And sometimes with switch languages in middle of sentence,",english,False,0.2053421139717102
+hinglish_001_general__c047,hinglish_001_general,hinglish_001_general__t044,speaker_1,174.8,eot,models also have to understand.,english,False,0.41100364923477173
+hinglish_001_general__c048,hinglish_001_general,hinglish_001_general__t045,speaker_1,175.8,eot,Right.,uncertain,False,0.01588347554206848
+hinglish_001_general__c049,hinglish_001_general,hinglish_001_general__t046,speaker_1,176.1,eot,Right.,uncertain,False,0.013283997774124146
+hinglish_001_general__c050,hinglish_001_general,hinglish_001_general__t047,speaker_2,178.9,hold,Right.,uncertain,False,0.027446657419204712
+hinglish_001_general__c051,hinglish_001_general,hinglish_001_general__t047,speaker_2,180.5,eot,Like we are using Hindi or English both.,english,False,0.07411915063858032
+hinglish_001_general__c052,hinglish_001_general,hinglish_001_general__t048,speaker_2,182.5,eot,Like we are using Hindi or English both.,english,False,0.573628306388855
+hinglish_001_general__c053,hinglish_001_general,hinglish_001_general__t049,speaker_2,182.8,eot,Without even thinking about it.,english,False,0.7008672952651978
+hinglish_001_general__c054,hinglish_001_general,hinglish_001_general__t050,speaker_1,189.3,eot,It's completely natural for us.,uncertain,True,0.77867591381073
+hinglish_001_general__c055,hinglish_001_general,hinglish_001_general__t051,speaker_2,195.7,eot,It's completely natural for us.,uncertain,False,0.6894525289535522
+hinglish_001_general__c056,hinglish_001_general,hinglish_001_general__t052,speaker_2,198.4,eot,But what if voice assistance misunderstand the language switch that could change the entire meaning?,mixed,True,0.9197365045547485
+hinglish_001_general__c057,hinglish_001_general,hinglish_001_general__t053,speaker_2,199.9,eot,But what if voice assistance misunderstand the language switch that could change the entire meaning?,mixed,True,0.005798518657684326
+hinglish_001_general__c058,hinglish_001_general,hinglish_001_general__t054,speaker_2,200.2,eot,But what if voice assistance misunderstand the language switch that could change the entire meaning?,mixed,True,0.005885899066925049
+hinglish_001_general__c059,hinglish_001_general,hinglish_001_general__t055,speaker_2,201.5,eot,True or oric problem?,uncertain,True,0.9360879063606262
+hinglish_001_general__c060,hinglish_001_general,hinglish_001_general__t056,speaker_1,204.8,eot,What happens when two peoples start speaking at the same time?,english,True,0.9690196514129639
+hinglish_001_general__c061,hinglish_001_general,hinglish_001_general__t057,speaker_1,205.8,eot,What happens when two peoples start speaking at the same time?,english,False,0.9661315679550171
+hinglish_001_general__c062,hinglish_001_general,hinglish_001_general__t058,speaker_2,209.4,eot,What happens when two peoples start speaking at the same time?,english,False,0.019306033849716187
+hinglish_001_general__c063,hinglish_001_general,hinglish_001_general__t059,speaker_2,211.9,eot,Then the system has to figure out who's speaking and what each person is saying.,mixed,True,0.9380803108215332
+hinglish_001_general__c064,hinglish_001_general,hinglish_001_general__t060,speaker_2,213.8,eot,That's not easy.,uncertain,False,0.015585094690322876
+hinglish_001_general__c065,hinglish_001_general,hinglish_001_general__t061,speaker_2,214.9,eot,I know.,uncertain,False,0.011640310287475586
+hinglish_001_general__c066,hinglish_001_general,hinglish_001_general__t062,speaker_1,218.2,eot,I know.,uncertain,False,0.00810292363166809
+hinglish_001_general__c067,hinglish_001_general,hinglish_001_general__t063,speaker_1,220.3,eot,Actually I think understanding conversations is much harder than converting speech into text.,english,False,0.9677459001541138
+hinglish_001_general__c068,hinglish_001_general,hinglish_001_general__t064,speaker_1,222.1,eot,Actually I think understanding conversations is much harder than converting speech into text.,english,False,0.00546613335609436
+hinglish_001_general__c069,hinglish_001_general,hinglish_001_general__t065,speaker_1,223.8,eot,Actually I think understanding conversations is much harder than converting speech into text.,english,False,0.009460538625717163
+hinglish_002_cricket__c005,hinglish_002_cricket,hinglish_002_cricket__t000,speaker_1,13.2,eot,I don't think so.,english,False,0.03360170125961304
+hinglish_002_cricket__c009,hinglish_002_cricket,hinglish_002_cricket__t001,speaker_1,19.8,eot,the importance of experienced players is different.,english,True,0.006541401147842407
+hinglish_002_cricket__c011,hinglish_002_cricket,hinglish_002_cricket__t002,speaker_2,30.5,hold,But selection is also a logic.,english,False,0.9861260652542114
+hinglish_002_cricket__c013,hinglish_002_cricket,hinglish_002_cricket__t002,speaker_2,36.0,eot,You can't just select someone because they have performed well in two or three matches.,english,False,0.8753986358642578
+hinglish_002_cricket__c014,hinglish_002_cricket,hinglish_002_cricket__t003,speaker_1,37.4,eot,Fair point.,uncertain,False,0.008152872323989868
+hinglish_002_cricket__c017,hinglish_002_cricket,hinglish_002_cricket__t004,speaker_2,48.3,eot,"True, what do you think about IPL?",english,False,0.07599136233329773
+hinglish_002_cricket__c020,hinglish_002_cricket,hinglish_002_cricket__t005,speaker_2,66.4,hold,Yes but don't you think IPL has also made cricket too commercial?,english,False,0.623271107673645
+hinglish_002_cricket__c026,hinglish_002_cricket,hinglish_002_cricket__t005,speaker_1,84.6,eot,Okay then tell me something.,uncertain,False,0.17183560132980347
+hinglish_002_cricket__c027,hinglish_002_cricket,hinglish_002_cricket__t006,speaker_1,86.6,eot,Test cricket or T20.,uncertain,False,0.9834113717079163
+hinglish_002_cricket__c031,hinglish_002_cricket,hinglish_002_cricket__t007,speaker_1,98.9,eot,That's something else.,uncertain,False,0.08541172742843628
+hinglish_002_cricket__c032,hinglish_002_cricket,hinglish_002_cricket__t008,speaker_1,100.3,eot,That's something else.,uncertain,False,0.014507681131362915
+hinglish_002_cricket__c035,hinglish_002_cricket,hinglish_002_cricket__t009,speaker_1,118.5,eot,Okay I get that.,english,False,0.04999545216560364
+hinglish_002_cricket__c039,hinglish_002_cricket,hinglish_002_cricket__t010,speaker_1,131.3,hold,It can be but draw or also part of strategies.,english,False,0.02729782462120056
+hinglish_002_cricket__c045,hinglish_002_cricket,hinglish_002_cricket__t010,speaker_2,155.3,hold,Yes.,uncertain,False,0.14980939030647278
+hinglish_002_cricket__c046,hinglish_002_cricket,hinglish_002_cricket__t010,speaker_2,157.1,hold,Yes.,uncertain,False,0.040665656328201294
+hinglish_002_cricket__c049,hinglish_002_cricket,hinglish_002_cricket__t010,speaker_2,162.7,eot,And if India was in a bad mood then everyone would change.,english,False,0.006254285573959351
+hinglish_002_cricket__c052,hinglish_002_cricket,hinglish_002_cricket__t011,speaker_1,171.6,eot,Everyone had their own analysis.,uncertain,False,0.6024954915046692
+hinglish_002_cricket__c056,hinglish_002_cricket,hinglish_002_cricket__t012,speaker_2,183.8,eot,"But other sports are also growing like football, between chase.",english,False,0.008168250322341919
+hinglish_002_cricket__c062,hinglish_002_cricket,hinglish_002_cricket__t013,speaker_1,206.2,eot,Exactly.,uncertain,False,0.6982644200325012
+hinglish_002_cricket__c064,hinglish_002_cricket,hinglish_002_cricket__t014,speaker_2,212.1,eot,Players are human beings.,uncertain,False,0.007306873798370361
+hinglish_002_cricket__c067,hinglish_002_cricket,hinglish_002_cricket__t015,speaker_1,221.0,eot,Do you think social media has made cricket fans more knowledgeable or just more argumentative?,english,False,0.10153764486312866
+hinglish_002_cricket__c070,hinglish_002_cricket,hinglish_002_cricket__t016,speaker_2,231.6,eot,True.,uncertain,False,0.3686572313308716
+hinglish_002_cricket__c073,hinglish_002_cricket,hinglish_002_cricket__t017,speaker_2,241.6,eot,"If you could change one thing about Indian cricket, what would it be?",english,False,0.2964220643043518
+hinglish_002_cricket__c075,hinglish_002_cricket,hinglish_002_cricket__t018,speaker_1,250.7,eot,I agree.,uncertain,False,0.1322396695613861
+hinglish_003_movies__c002,hinglish_003_movies,hinglish_003_movies__t000,speaker_1,5.3,eot,"Ak straight back, 3D & PK in your favourite games.",uncertain,False,0.10201385617256165
+hinglish_003_movies__c007,hinglish_003_movies,hinglish_003_movies__t001,speaker_1,23.7,eot,"like, ima just an alien of alien and i can't understand that.",english,False,0.8615370988845825
+hinglish_003_movies__c010,hinglish_003_movies,hinglish_003_movies__t002,speaker_2,31.9,eot,...especially college life...,uncertain,False,0.03246384859085083
+hinglish_003_movies__c012,hinglish_003_movies,hinglish_003_movies__t003,speaker_1,35.8,hold,"True, you know like the rancho character is so interesting",english,False,0.7325095534324646
+hinglish_003_movies__c013,hinglish_003_movies,hinglish_003_movies__t003,speaker_1,36.6,hold,"True, you know like the rancho character is so interesting",english,False,0.9843721389770508
+hinglish_003_movies__c014,hinglish_003_movies,hinglish_003_movies__t003,speaker_1,37.0,hold,"True, you know like the rancho character is so interesting",english,False,0.9860872030258179
+hinglish_003_movies__c027,hinglish_003_movies,hinglish_003_movies__t003,speaker_1,72.5,eot,"Bro, virus character ya de...",uncertain,False,0.04484078288078308
+hinglish_003_movies__c028,hinglish_003_movies,hinglish_003_movies__t004,speaker_1,72.9,eot,"Bro, virus character ya de...",uncertain,True,0.5113361477851868
+hinglish_003_movies__c029,hinglish_003_movies,hinglish_003_movies__t005,speaker_2,77.3,eot,...uska to allagi obsesion tha ranking se...,hindi (romanized),True,0.014114409685134888
+hinglish_003_movies__c035,hinglish_003_movies,hinglish_003_movies__t006,speaker_2,105.7,eot,...her kisi ko aap na passion...,hindi (romanized),False,0.8775794506072998
+hinglish_003_movies__c037,hinglish_003_movies,hinglish_003_movies__t007,speaker_1,110.9,hold,"...ha, aagri, me aise oj rahat ha ki...",hindi (romanized),True,0.36381596326828003
+hinglish_003_movies__c043,hinglish_003_movies,hinglish_003_movies__t007,speaker_2,127.9,eot,...tuje yaad he ki wese njaha pk remote set tv channel change...,hindi (romanized),False,0.9301649928092957
+hinglish_003_movies__c048,hinglish_003_movies,hinglish_003_movies__t008,speaker_1,143.0,eot,"...yaa, it basically questions like every time...",uncertain,False,0.9502589702606201
+hinglish_003_movies__c049,hinglish_003_movies,hinglish_003_movies__t009,speaker_1,146.2,hold,...and mujo uska concept kaafi pa sa daa...,hindi (romanized),False,0.005370825529098511
+hinglish_003_movies__c056,hinglish_003_movies,hinglish_003_movies__t009,speaker_2,157.3,eot,...true but...,uncertain,False,0.928758978843689
+hinglish_003_movies__c061,hinglish_003_movies,hinglish_003_movies__t010,speaker_1,177.2,eot,...beso mi jhanish koga karakter bi atsh halakath hum...,uncertain,False,0.7779430747032166
+hinglish_003_movies__c064,hinglish_003_movies,hinglish_003_movies__t011,speaker_2,188.2,eot,...uski franship piki ke saat kaafi huy sam di...,hindi (romanized),False,0.011812597513198853
+hinglish_003_movies__c066,hinglish_003_movies,hinglish_003_movies__t012,speaker_1,191.3,hold,...actually ek tis notis ki...,uncertain,False,0.9608703851699829
+hinglish_003_movies__c076,hinglish_003_movies,hinglish_003_movies__t012,speaker_1,214.8,hold,"...hmm, probabliya dilit peak edan...",uncertain,False,0.009370595216751099
+hinglish_003_movies__c079,hinglish_003_movies,hinglish_003_movies__t012,speaker_1,220.5,eot,...3D has its own nostalgia...,uncertain,False,0.3440411388874054
+hinglish_003_movies__c090,hinglish_003_movies,hinglish_003_movies__t013,speaker_1,238.8,hold,...isn't that straight forward right?,uncertain,False,0.011144429445266724
+hinglish_003_movies__c097,hinglish_003_movies,hinglish_003_movies__t013,speaker_1,260.1,eot,...we'll understand them differently.,uncertain,False,0.7427810430526733
+hinglish_003_movies__c100,hinglish_003_movies,hinglish_003_movies__t014,speaker_1,270.0,eot,...tul we can be rewatched hai dona...,english,False,0.9834001064300537
